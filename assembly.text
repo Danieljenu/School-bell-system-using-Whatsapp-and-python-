@@ -1,0 +1,129 @@
+# 📄 **ASSEMBLY AUDIO FILE NAMES & SETTINGS GUIDE**
+
+## **1. Default Filenames (Save your audio with these names)**
+
+### **English Days (Monday, Tuesday, Thursday)**
+
+* Prayer → `english_prayer.mp3`
+* Birthday Song → `english_birthday.mp3`
+
+### **Hindi Day (Wednesday)**
+
+* Prayer → `hindi_prayer.mp3`
+* Birthday Song → `hindi_birthday.mp3`
+
+### **Malayalam Day (Friday)**
+
+* Prayer → `malayalam_prayer.mp3`
+* Birthday Song → `malayalam_birthday.mp3`
+
+---
+
+## **2. Common Files (Used every day)**
+
+* National Anthem → `national_anthem.mp3`
+* Assembly Bell (5 seconds bell) → `bell.mp3`
+
+---
+
+## **3. Extra Audio Files**
+
+You get **two empty slots** for extra audio.
+
+You **don’t need to create filenames now**.
+You can assign any file later using Settings.
+
+---
+
+# 📌 **FILE PLACEMENT**
+
+All audio files must be placed in the **same folder** as your main Python program.
+
+Example folder:
+
+```
+school_bell_system.py
+english_prayer.mp3
+english_birthday.mp3
+hindi_prayer.mp3
+hindi_birthday.mp3
+malayalam_prayer.mp3
+malayalam_birthday.mp3
+national_anthem.mp3
+bell.mp3
+```
+
+---
+
+# 🛠 **HOW TO CHANGE FILE NAMES IN THE PROGRAM (SETTINGS MENU)**
+
+Inside the program:
+
+```
+4. Settings
+```
+
+Then you will see these options:
+
+### **1. Change National Anthem file**
+
+Enter new filename or full path.
+Example: `C:\Songs\NewAnthem.mp3`
+
+### **2. Change Assembly Bell file**
+
+Enter new filename.
+Example: `mybell.mp3`
+
+### **3. Set Extra Audio 1**
+
+Enter ANY file name.
+Example: `motivational_speech.mp3`
+This becomes **Extra Audio 1** in Assembly menu.
+
+### **4. Set Extra Audio 2**
+
+Enter ANY file name.
+Example: `special_event_song.mp3`
+This becomes **Extra Audio 2** in Assembly menu.
+
+### **5. Change Prayer/Birthday files for a specific day**
+
+You will choose:
+
+```
+0 = Monday
+1 = Tuesday
+2 = Wednesday
+3 = Thursday
+4 = Friday
+```
+
+Then you can change:
+
+* Prayer file
+* Birthday file
+* Label (English Day / Hindi Day / Malayalam Day)
+
+---
+
+# 🎯 SUMMARY (Short Version)
+
+```
+English Prayer → english_prayer.mp3
+English Birthday → english_birthday.mp3
+
+Hindi Prayer → hindi_prayer.mp3
+Hindi Birthday → hindi_birthday.mp3
+
+Malayalam Prayer → malayalam_prayer.mp3
+Malayalam Birthday → malayalam_birthday.mp3
+
+National Anthem → national_anthem.mp3
+Assembly Bell → bell.mp3
+
+Extra Audio 1 → set from Settings
+Extra Audio 2 → set from Settings
+```
+
+---
