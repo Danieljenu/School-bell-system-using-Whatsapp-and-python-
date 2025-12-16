@@ -379,7 +379,7 @@ def tts_openai_online(text: str, voice: str = "alloy", filename: str = "online_t
         ) as response:
             response.stream_to_file(speech_file_path)
 
-        play_audio_file(speech_file_path)
+        play_audio_blocking(str(speech_file_path))
 
     except Exception as e:
         print("[OpenAI] Online TTS error:", e)
